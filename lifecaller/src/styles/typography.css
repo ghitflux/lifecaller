@@ -1,0 +1,6 @@
+/* Classes utilitárias acopladas aos tokens de tipografia */
+.ds-h1 { font-size: var(--typographyH1Size); font-weight: var(--typographyH1Weight); line-height: var(--typographyH1Line); }
+.ds-h2 { font-size: var(--typographyH2Size); font-weight: var(--typographyH2Weight); line-height: var(--typographyH2Line); }
+.ds-h3 { font-size: var(--typographyH3Size); font-weight: var(--typographyH3Weight); line-height: var(--typographyH3Line); }
+.ds-body { font-size: var(--typographyBodySize); font-weight: var(--typographyBodyWeight); line-height: var(--typographyBodyLine); }
+.ds-caption { font-size: var(--typographyCaptionSize); font-weight: var(--typographyCaptionWeight); line-height: var(--typographyCaptionLine); letter-spacing: 0.2px; opacity: .95; }

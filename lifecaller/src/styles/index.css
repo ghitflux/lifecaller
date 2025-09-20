@@ -1,0 +1,246 @@
+@import "./tokens.css";
+@import "./fonts.css";
+@import "./typography.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base design tokens - semantic layer */
+:root {
+  /* Brand Colors */
+  --brand: var(--themeDarkColorBrandPrimary);
+  --brand-secondary: var(--themeDarkColorBrandSecondary);
+  --brand-accent: var(--themeDarkColorBrandAccent);
+
+  /* Surface Colors */
+  --bg: var(--themeDarkColorSurfaceBackground);
+  --card: var(--themeDarkColorSurfaceCard);
+  --elev: var(--themeDarkColorSurfaceElevation);
+  --stroke: var(--themeDarkColorSurfaceStroke);
+  --divider: var(--themeDarkColorSurfaceDivider);
+
+  /* Text Colors */
+  --text: var(--themeDarkColorTextPrimary);
+  --text-secondary: var(--themeDarkColorTextSecondary);
+  --muted: var(--themeDarkColorTextMuted);
+  --text-inverse: var(--themeDarkColorTextInverse);
+
+  /* Feedback Colors */
+  --success: var(--themeDarkColorFeedbackSuccess);
+  --warning: var(--themeDarkColorFeedbackWarning);
+  --danger: var(--themeDarkColorFeedbackDanger);
+  --info: var(--themeDarkColorFeedbackInfo);
+
+  /* Status Colors - Semantic mapping */
+  --status-pendente: var(--themeDarkColorStatusPendenteForeground);
+  --status-pendente-bg: var(--themeDarkColorStatusPendenteBackground);
+  --status-atendimento: var(--themeDarkColorStatusEmAtendimentoForeground);
+  --status-atendimento-bg: var(--themeDarkColorStatusEmAtendimentoBackground);
+  --status-aguardo: var(--themeDarkColorStatusAguardandoAprovacaoForeground);
+  --status-aguardo-bg: var(--themeDarkColorStatusAguardandoAprovacaoBackground);
+  --status-aprovado: var(--themeDarkColorStatusAprovadoForeground);
+  --status-aprovado-bg: var(--themeDarkColorStatusAprovadoBackground);
+  --status-reprovado: var(--themeDarkColorStatusReprovadoForeground);
+  --status-reprovado-bg: var(--themeDarkColorStatusReprovadoBackground);
+  --status-formalizado: var(--themeDarkColorStatusContratoFormalizadoForeground);
+  --status-formalizado-bg: var(--themeDarkColorStatusContratoFormalizadoBackground);
+  --status-pago: var(--themeDarkColorStatusPagoForeground);
+  --status-pago-bg: var(--themeDarkColorStatusPagoBackground);
+
+  /* Spacing */
+  --space-xs: var(--coreSpaceXs);
+  --space-sm: var(--coreSpaceSm);
+  --space-md: var(--coreSpaceMd);
+  --space-lg: var(--coreSpaceLg);
+  --space-xl: var(--coreSpaceXl);
+  --space-2xl: var(--coreSpace2xl);
+  --space-3xl: var(--coreSpace3xl);
+
+  /* Border Radius */
+  --radius-sm: var(--coreRadiusSm);
+  --radius-md: var(--coreRadiusMd);
+  --radius-lg: var(--coreRadiusLg);
+  --radius-xl: var(--coreRadiusXl);
+  --radius-2xl: var(--coreRadius2xl);
+  --radius-full: var(--coreRadiusFull);
+
+  /* Border Width */
+  --border-width: var(--coreBorderWidthMedium);
+  --border-width-thin: var(--coreBorderWidthThin);
+  --border-width-thick: var(--coreBorderWidthThick);
+
+  /* Shadows */
+  --shadow-soft: var(--coreShadowSoft);
+  --shadow-sm: var(--coreShadowSm);
+  --shadow-md: var(--coreShadowMd);
+  --shadow-lg: var(--coreShadowLg);
+  --shadow-xl: var(--coreShadowXl);
+
+  /* Typography */
+  --font-sans: var(--coreFontFamilySans);
+  --font-mono: var(--coreFontFamilyMono);
+  --font-size-xs: var(--coreFontSizeXs);
+  --font-size-sm: var(--coreFontSizeSm);
+  --font-size-md: var(--coreFontSizeMd);
+  --font-size-lg: var(--coreFontSizeLg);
+  --font-size-xl: var(--coreFontSizeXl);
+  --font-size-2xl: var(--coreFontSize2xl);
+  --font-size-3xl: var(--coreFontSize3xl);
+  --font-size-4xl: var(--coreFontSize4xl);
+  --font-weight-light: var(--coreFontWeightLight);
+  --font-weight-regular: var(--coreFontWeightRegular);
+  --font-weight-medium: var(--coreFontWeightMedium);
+  --font-weight-semibold: var(--coreFontWeightSemibold);
+  --font-weight-bold: var(--coreFontWeightBold);
+  --line-height-tight: var(--coreFontLineHeightTight);
+  --line-height-normal: var(--coreFontLineHeightNormal);
+  --line-height-base: var(--coreFontLineHeightBase);
+  --line-height-relaxed: var(--coreFontLineHeightRelaxed);
+
+  /* Component Tokens */
+  --button-height-sm: var(--componentButtonHeightSm);
+  --button-height-md: var(--componentButtonHeightMd);
+  --button-height-lg: var(--componentButtonHeightLg);
+  --button-radius: var(--componentButtonBorderRadius);
+  --button-border-width: var(--componentButtonBorderWidth);
+  --card-radius: var(--componentCardBorderRadius);
+  --card-border-width: var(--componentCardBorderWidth);
+  --card-padding: var(--componentCardPadding);
+  --card-shadow: var(--componentCardShadow);
+  --input-height: var(--componentInputHeight);
+  --input-radius: var(--componentInputBorderRadius);
+  --input-border-width: var(--componentInputBorderWidth);
+  --input-padding: var(--componentInputPaddingHorizontal);
+
+  /* Motion */
+  --motion-fast: var(--coreMotionDurationFast);
+  --motion-normal: var(--coreMotionDurationNormal);
+  --motion-slow: var(--coreMotionDurationSlow);
+  --motion-easing: var(--coreMotionEasingStandard);
+
+  /* Legacy aliases for backward compatibility */
+  --ok: var(--success);
+  --warn: var(--warning);
+  --queued: var(--brand-accent);
+  --r-xl2: var(--radius-xl);
+  --font-size-md: var(--coreFontSizeMd);
+  --line-base: var(--coreFontLineHeightBase);
+}
+
+/* Light theme overrides */
+[data-theme="light"], .theme-light {
+  /* Brand Colors */
+  --brand: var(--themeLightColorBrandPrimary);
+  --brand-secondary: var(--themeLightColorBrandSecondary);
+  --brand-accent: var(--themeLightColorBrandAccent);
+
+  /* Surface Colors */
+  --bg: var(--themeLightColorSurfaceBackground);
+  --card: var(--themeLightColorSurfaceCard);
+  --elev: var(--themeLightColorSurfaceElevation);
+  --stroke: var(--themeLightColorSurfaceStroke);
+  --divider: var(--themeLightColorSurfaceDivider);
+
+  /* Text Colors */
+  --text: var(--themeLightColorTextPrimary);
+  --text-secondary: var(--themeLightColorTextSecondary);
+  --muted: var(--themeLightColorTextMuted);
+  --text-inverse: var(--themeLightColorTextInverse);
+
+  /* Feedback Colors */
+  --success: var(--themeLightColorFeedbackSuccess);
+  --warning: var(--themeLightColorFeedbackWarning);
+  --danger: var(--themeLightColorFeedbackDanger);
+  --info: var(--themeLightColorFeedbackInfo);
+
+  /* Status Colors */
+  --status-pendente: var(--themeLightColorStatusPendenteForeground);
+  --status-pendente-bg: var(--themeLightColorStatusPendenteBackground);
+  --status-atendimento: var(--themeLightColorStatusEmAtendimentoForeground);
+  --status-atendimento-bg: var(--themeLightColorStatusEmAtendimentoBackground);
+  --status-aguardo: var(--themeLightColorStatusAguardandoAprovacaoForeground);
+  --status-aguardo-bg: var(--themeLightColorStatusAguardandoAprovacaoBackground);
+  --status-aprovado: var(--themeLightColorStatusAprovadoForeground);
+  --status-aprovado-bg: var(--themeLightColorStatusAprovadoBackground);
+  --status-reprovado: var(--themeLightColorStatusReprovadoForeground);
+  --status-reprovado-bg: var(--themeLightColorStatusReprovadoBackground);
+  --status-formalizado: var(--themeLightColorStatusContratoFormalizadoForeground);
+  --status-formalizado-bg: var(--themeLightColorStatusContratoFormalizadoBackground);
+  --status-pago: var(--themeLightColorStatusPagoForeground);
+  --status-pago-bg: var(--themeLightColorStatusPagoBackground);
+
+  /* Legacy aliases */
+  --ok: var(--success);
+  --warn: var(--warning);
+  --queued: var(--brand-accent);
+}
+
+[data-theme="light"] .status-pendente,
+.theme-light .status-pendente,
+[data-theme="light"] .status-atendimento,
+.theme-light .status-atendimento,
+[data-theme="light"] .status-aguardo,
+.theme-light .status-aguardo,
+[data-theme="light"] .status-aprovado,
+.theme-light .status-aprovado,
+[data-theme="light"] .status-reprovado,
+.theme-light .status-reprovado,
+[data-theme="light"] .status-formalizado,
+.theme-light .status-formalizado,
+[data-theme="light"] .status-pago,
+.theme-light .status-pago {
+  border-width: 0;
+  border-color: transparent;
+}
+
+/* Base styles */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-base);
+  font-weight: var(--font-weight-regular);
+  transition: background-color var(--motion-normal) var(--motion-easing), color var(--motion-normal) var(--motion-easing);
+}
+
+code, pre, kbd {
+  font-family: var(--font-mono);
+}
+
+* {
+  outline-color: var(--brand);
+}
+
+/* Utility classes */
+.card {
+  background: var(--card);
+  border: var(--card-border-width) solid var(--stroke);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  padding: var(--card-padding);
+}
+
+.surface {
+  background: var(--card);
+  border: var(--border-width) solid var(--stroke);
+  border-radius: var(--radius-lg);
+}
+
+.text-primary { color: var(--text); }
+.text-secondary { color: var(--text-secondary); }
+.text-muted { color: var(--muted); }
+.text-success { color: var(--success); }
+.text-warning { color: var(--warning); }
+.text-danger { color: var(--danger); }
+.text-info { color: var(--info); }
+
+.bg-brand { background-color: var(--brand); }
+.bg-surface { background-color: var(--bg); }
+.bg-card { background-color: var(--card); }
+.bg-elevation { background-color: var(--elev); }

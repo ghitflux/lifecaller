@@ -1,0 +1,15 @@
+@import "@fontsource-variable/inter/index.css";
+@import "@fontsource-variable/jetbrains-mono/index.css";
+
+@font-face {
+  font-family: "Gogh";
+  src: url("/fonts/Gogh-Variable.woff2") format("woff2");
+  font-weight: 100 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+:root {
+  --font-sans: var(--fontSans, 'Gogh');
+  --font-mono: var(--fontMono, 'JetBrains Mono');
+}

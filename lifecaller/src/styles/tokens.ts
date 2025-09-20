@@ -1,0 +1,200 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const coreColorPrimitiveBlue50 = "#ebf5ff";
+export const coreColorPrimitiveBlue100 = "#dbeafe";
+export const coreColorPrimitiveBlue200 = "#bfdbfe";
+export const coreColorPrimitiveBlue300 = "#93c5fd";
+export const coreColorPrimitiveBlue400 = "#60a5fa";
+export const coreColorPrimitiveBlue500 = "#3b82f6";
+export const coreColorPrimitiveBlue600 = "#2563eb";
+export const coreColorPrimitiveBlue700 = "#1d4ed8";
+export const coreColorPrimitiveBlue800 = "#1e40af";
+export const coreColorPrimitiveBlue900 = "#1e3a8a";
+export const coreColorPrimitiveBlue950 = "#172554";
+export const coreColorPrimitiveGray50 = "#f9fafb";
+export const coreColorPrimitiveGray100 = "#f3f4f6";
+export const coreColorPrimitiveGray200 = "#e5e7eb";
+export const coreColorPrimitiveGray300 = "#d1d5db";
+export const coreColorPrimitiveGray400 = "#9ca3af";
+export const coreColorPrimitiveGray500 = "#6b7280";
+export const coreColorPrimitiveGray600 = "#4b5563";
+export const coreColorPrimitiveGray700 = "#374151";
+export const coreColorPrimitiveGray800 = "#1f2937";
+export const coreColorPrimitiveGray900 = "#111827";
+export const coreColorPrimitiveGray950 = "#030712";
+export const coreColorPrimitiveGreen50 = "#ecfdf5";
+export const coreColorPrimitiveGreen500 = "#10b981";
+export const coreColorPrimitiveGreen600 = "#059669";
+export const coreColorPrimitiveRed50 = "#fef2f2";
+export const coreColorPrimitiveRed500 = "#ef4444";
+export const coreColorPrimitiveRed600 = "#dc2626";
+export const coreColorPrimitiveYellow50 = "#fffbeb";
+export const coreColorPrimitiveYellow500 = "#f59e0b";
+export const coreColorPrimitiveYellow600 = "#d97706";
+export const coreColorPrimitivePurple50 = "#faf5ff";
+export const coreColorPrimitivePurple500 = "#8b5cf6";
+export const coreColorPrimitivePurple600 = "#7c3aed";
+export const coreSpace0 = "0px";
+export const coreSpaceXs = "4px";
+export const coreSpaceSm = "8px";
+export const coreSpaceMd = "12px";
+export const coreSpaceLg = "18px";
+export const coreSpaceXl = "24px";
+export const coreSpace2xl = "32px";
+export const coreSpace3xl = "48px";
+export const coreRadiusNone = "0px";
+export const coreRadiusSm = "8px";
+export const coreRadiusMd = "14px";
+export const coreRadiusLg = "18px";
+export const coreRadiusXl = "20px";
+export const coreRadius2xl = "24px";
+export const coreRadiusFull = "9999px";
+export const coreBorderWidthNone = "0px";
+export const coreBorderWidthThin = "1px";
+export const coreBorderWidthMedium = "1.5px";
+export const coreBorderWidthThick = "2px";
+export const coreShadowNone = "none";
+export const coreShadowSm = "0 1px 2px 0 rgba(0, 0, 0, 0.05)";
+export const coreShadowMd =
+  "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)";
+export const coreShadowLg =
+  "0 10px 12px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)";
+export const coreShadowXl =
+  "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)";
+export const coreShadowSoft = "0 22px 60px rgba(10, 16, 28, 0.45)";
+export const coreFontFamilySans =
+  "'Gogh', 'Inter', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans'";
+export const coreFontFamilyMono =
+  "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace";
+export const coreFontSizeXs = "12px";
+export const coreFontSizeSm = "14px";
+export const coreFontSizeMd = "16px";
+export const coreFontSizeLg = "18px";
+export const coreFontSizeXl = "20px";
+export const coreFontSize2xl = "24px";
+export const coreFontSize3xl = "30px";
+export const coreFontSize4xl = "36px";
+export const coreFontWeightLight = "300";
+export const coreFontWeightRegular = "400";
+export const coreFontWeightMedium = "500";
+export const coreFontWeightSemibold = "600";
+export const coreFontWeightBold = "700";
+export const coreFontWeightExtrabold = "800";
+export const coreFontLineHeightTight = "1.24";
+export const coreFontLineHeightNormal = "1.32";
+export const coreFontLineHeightBase = "1.45";
+export const coreFontLineHeightRelaxed = "1.65";
+export const coreMotionDurationInstant = "0ms";
+export const coreMotionDurationFast = "120ms";
+export const coreMotionDurationNormal = "200ms";
+export const coreMotionDurationSlow = "320ms";
+export const coreMotionDurationSlower = "500ms";
+export const coreMotionEasingLinear = "linear";
+export const coreMotionEasingEase = "ease";
+export const coreMotionEasingEaseIn = "ease-in";
+export const coreMotionEasingEaseOut = "ease-out";
+export const coreMotionEasingEaseInOut = "ease-in-out";
+export const coreMotionEasingStandard = "cubic-bezier(0.2, 0, 0, 1)";
+export const themeDarkColorBrandPrimary = "#4c8dff";
+export const themeDarkColorBrandSecondary = "#7a5cff";
+export const themeDarkColorBrandAccent = "#b895ff";
+export const themeDarkColorSurfaceBackground = "#0f1729";
+export const themeDarkColorSurfaceCard = "#1a253b";
+export const themeDarkColorSurfaceElevation = "#22304a";
+export const themeDarkColorSurfaceStroke = "#2f3d57";
+export const themeDarkColorSurfaceDivider = "#1e2d44";
+export const themeDarkColorTextPrimary = "#e8eef7";
+export const themeDarkColorTextSecondary = "#b6c4db";
+export const themeDarkColorTextMuted = "#8fa4c5";
+export const themeDarkColorTextInverse = "#0f1729";
+export const themeDarkColorFeedbackSuccess = "#1edb83";
+export const themeDarkColorFeedbackWarning = "#f7b23b";
+export const themeDarkColorFeedbackDanger = "#f26767";
+export const themeDarkColorFeedbackInfo = "#4aa3ff";
+export const themeDarkColorStatusPendenteForeground = "#4c8dff";
+export const themeDarkColorStatusPendenteBackground =
+  "rgba(76, 141, 255, 0.18)";
+export const themeDarkColorStatusEmAtendimentoForeground = "#7a5cff";
+export const themeDarkColorStatusEmAtendimentoBackground =
+  "rgba(122, 92, 255, 0.2)";
+export const themeDarkColorStatusAguardandoAprovacaoForeground = "#f7b23b";
+export const themeDarkColorStatusAguardandoAprovacaoBackground =
+  "rgba(247, 178, 59, 0.22)";
+export const themeDarkColorStatusAprovadoForeground = "#1edb83";
+export const themeDarkColorStatusAprovadoBackground =
+  "rgba(30, 219, 131, 0.22)";
+export const themeDarkColorStatusReprovadoForeground = "#f26767";
+export const themeDarkColorStatusReprovadoBackground =
+  "rgba(242, 103, 103, 0.2)";
+export const themeDarkColorStatusContratoFormalizadoForeground = "#13b072";
+export const themeDarkColorStatusContratoFormalizadoBackground =
+  "rgba(19, 176, 114, 0.22)";
+export const themeDarkColorStatusPagoForeground = "#4aa3ff";
+export const themeDarkColorStatusPagoBackground = "rgba(74, 163, 255, 0.2)";
+export const themeLightColorBrandPrimary = "#2563eb";
+export const themeLightColorBrandSecondary = "#7c3aed";
+export const themeLightColorBrandAccent = "#8b5cf6";
+export const themeLightColorSurfaceBackground = "#ffffff";
+export const themeLightColorSurfaceCard = "#fafafa";
+export const themeLightColorSurfaceElevation = "#f5f5f5";
+export const themeLightColorSurfaceStroke = "#e5e7eb";
+export const themeLightColorSurfaceDivider = "#f3f4f6";
+export const themeLightColorTextPrimary = "#111827";
+export const themeLightColorTextSecondary = "#374151";
+export const themeLightColorTextMuted = "#6b7280";
+export const themeLightColorTextInverse = "#ffffff";
+export const themeLightColorFeedbackSuccess = "#059669";
+export const themeLightColorFeedbackWarning = "#d97706";
+export const themeLightColorFeedbackDanger = "#dc2626";
+export const themeLightColorFeedbackInfo = "#2563eb";
+export const themeLightColorStatusPendenteForeground = "#2563eb";
+export const themeLightColorStatusPendenteBackground = "rgba(37, 99, 235, 0.1)";
+export const themeLightColorStatusEmAtendimentoForeground = "#7c3aed";
+export const themeLightColorStatusEmAtendimentoBackground =
+  "rgba(124, 58, 237, 0.1)";
+export const themeLightColorStatusAguardandoAprovacaoForeground = "#d97706";
+export const themeLightColorStatusAguardandoAprovacaoBackground =
+  "rgba(217, 119, 6, 0.1)";
+export const themeLightColorStatusAprovadoForeground = "#059669";
+export const themeLightColorStatusAprovadoBackground = "rgba(5, 150, 105, 0.1)";
+export const themeLightColorStatusReprovadoForeground = "#dc2626";
+export const themeLightColorStatusReprovadoBackground =
+  "rgba(220, 38, 38, 0.1)";
+export const themeLightColorStatusContratoFormalizadoForeground = "#059669";
+export const themeLightColorStatusContratoFormalizadoBackground =
+  "rgba(5, 150, 105, 0.1)";
+export const themeLightColorStatusPagoForeground = "#2563eb";
+export const themeLightColorStatusPagoBackground = "rgba(37, 99, 235, 0.1)";
+export const componentButtonHeightSm = "36px";
+export const componentButtonHeightMd = "40px";
+export const componentButtonHeightLg = "44px";
+export const componentButtonPaddingHorizontalSm = "12px";
+export const componentButtonPaddingHorizontalMd = "18px";
+export const componentButtonPaddingHorizontalLg = "24px";
+export const componentButtonBorderRadius = "20px";
+export const componentButtonBorderWidth = "1.5px";
+export const componentCardBorderRadius = "20px";
+export const componentCardBorderWidth = "1.5px";
+export const componentCardPadding = "18px";
+export const componentCardShadow = "0 22px 60px rgba(10, 16, 28, 0.45)";
+export const componentInputHeight = "40px";
+export const componentInputBorderRadius = "18px";
+export const componentInputBorderWidth = "1.5px";
+export const componentInputPaddingHorizontal = "12px";
+export const componentTypographyHeadingH1FontSize = "36px";
+export const componentTypographyHeadingH1FontWeight = "600";
+export const componentTypographyHeadingH1LineHeight = "1.24";
+export const componentTypographyHeadingH2FontSize = "30px";
+export const componentTypographyHeadingH2FontWeight = "600";
+export const componentTypographyHeadingH2LineHeight = "1.24";
+export const componentTypographyHeadingH3FontSize = "24px";
+export const componentTypographyHeadingH3FontWeight = "600";
+export const componentTypographyHeadingH3LineHeight = "1.32";
+export const componentTypographyBodyFontSize = "16px";
+export const componentTypographyBodyFontWeight = "400";
+export const componentTypographyBodyLineHeight = "1.45";
+export const componentTypographyCaptionFontSize = "14px";
+export const componentTypographyCaptionFontWeight = "400";
+export const componentTypographyCaptionLineHeight = "1.32";

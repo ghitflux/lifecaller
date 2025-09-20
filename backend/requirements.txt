@@ -1,0 +1,25 @@
+# Django e dependências principais
+Django>=4.2,<5.0
+python-dotenv>=1.0.0
+
+# Django REST Framework e autenticação
+djangorestframework>=3.14.0
+djangorestframework-simplejwt>=5.2.0
+
+# Banco de dados PostgreSQL
+psycopg2-binary>=2.9.0
+
+# CORS para frontend
+django-cors-headers>=4.0.0
+
+# Filtros e busca
+django-filter>=23.0
+
+# Documentação da API
+drf-spectacular>=0.26.0
+
+# Manipulação de arquivos Excel
+openpyxl>=3.1.0
+
+# Utilitários para desenvolvimento
+ipython>=8.0.0
